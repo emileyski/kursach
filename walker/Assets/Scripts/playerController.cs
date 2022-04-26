@@ -5,6 +5,7 @@ using UnityEngine;
 public class playerController : MonoBehaviour
 {
     public int life_count;
+    int num;
 
     private GameObject weapon;
 
