@@ -5,28 +5,38 @@ using UnityEngine;
 public class playerController : MonoBehaviour
 {
     public int life_count;
-    int num;
+    Animator animator;
 
     private GameObject weapon;
 
     private Joystick joystick;
     [SerializeField]
     private float speed;
-    // Start is called before the first frame update
     void Start()
     {
+        animator = FindObjectOfType<Animator>();
         joystick = GameObject.Find("Fixed Joystick").GetComponent<Joystick>();
         weapon = transform.Find("Weapon").gameObject;
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position += new Vector3(speed * Time.deltaTime * joystick.Horizontal, speed * Time.deltaTime * joystick.Vertical, 0f);
         if (joystick.Horizontal != 0)
             transform.localScale = (joystick.Horizontal > 0) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
     }
-    
+
+    void PlayerAnimation()
+    {
+        if(joystick.Horizontal > 0 && joystick.Vertical > 0)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else 
+        {
+            animator.SetBool("isRunning", false);
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.GetComponentInParent<unit>())
