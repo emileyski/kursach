@@ -14,13 +14,14 @@ public class playerController : MonoBehaviour
     private float speed;
     void Start()
     {
-        animator = FindObjectOfType<Animator>();
+        animator = GetComponent<Animator>();
         joystick = GameObject.Find("Fixed Joystick").GetComponent<Joystick>();
         weapon = transform.Find("Weapon").gameObject;
     }
 
     void Update()
     {
+        PlayerAnimation();
         transform.position += new Vector3(speed * Time.deltaTime * joystick.Horizontal, speed * Time.deltaTime * joystick.Vertical, 0f);
         if (joystick.Horizontal != 0)
             transform.localScale = (joystick.Horizontal > 0) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
@@ -28,7 +29,7 @@ public class playerController : MonoBehaviour
 
     void PlayerAnimation()
     {
-        if(joystick.Horizontal > 0 && joystick.Vertical > 0)
+        if(joystick.Horizontal != 0 || joystick.Vertical != 0)
         {
             animator.SetBool("isRunning", true);
         }
