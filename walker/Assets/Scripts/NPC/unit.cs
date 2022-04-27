@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -11,21 +11,22 @@ public class unit : MonoBehaviour
     private roomParameters currentRoom;
 
     protected NavMeshAgent agent;
-    GameObject player;
+    //до обновлений;
+    Vector3 player;
     public string whoIsIt;
     protected Animator animator;
     [SerializeField] float atackRange;
     protected bool isActivated = false, atacking = false;
-    void Start()
+    protected virtual void Start()
     {
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
-        player = GameObject.Find("Player");
+        player = GameObject.Find("Player").transform.position;
         agent.updateRotation = false;
         agent.updateUpAxis = false;
 
     }
-    public void activation()
+    public virtual void activation()
     {
         animator.SetTrigger("isActivated");
         isActivated = true;
@@ -35,11 +36,11 @@ public class unit : MonoBehaviour
     {
         if (isActivated)
         {
-            agent.SetDestination(player.transform.position);
-            bool x = (Vector3.Distance(transform.position, player.transform.position) < atackRange) ? true : false;
+            agent.SetDestination(player);
+            bool x = (Vector3.Distance(transform.position, player) < atackRange) ? true : false;
             if (animator.GetBool("IsAttacking") != x)
                 animator.SetBool("IsAttacking", x);
-            transform.localScale = (player.transform.position.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
+            transform.localScale = (player.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
         }
     }
     IEnumerator Atack()
@@ -52,7 +53,13 @@ public class unit : MonoBehaviour
         {
             lifeCount -= collision.GetComponentInParent<weaponController>().damageCount;
             if (lifeCount <= 0)
-                Destroy(gameObject);
+            {
+                agent.isStopped = true;
+                animator.SetTrigger("isDied");
+                isActivated = false;
+                transform.Find("Weapon").gameObject.SetActive(false);
+                GetComponent<CapsuleCollider2D>().enabled = false;
+            }
         }
         if (collision.GetComponentInParent<roomParameters>())
         {

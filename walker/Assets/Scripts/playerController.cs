@@ -29,14 +29,8 @@ public class playerController : MonoBehaviour
 
     void PlayerAnimation()
     {
-        if(joystick.Horizontal != 0 || joystick.Vertical != 0)
-        {
-            animator.SetBool("isRunning", true);
-        }
-        else 
-        {
-            animator.SetBool("isRunning", false);
-        }
+        bool isRunning = (joystick.Horizontal != 0 || joystick.Vertical != 0) ? true : false;
+        animator.SetBool("isRunning", isRunning);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -44,7 +38,7 @@ public class playerController : MonoBehaviour
         {
             print("Suck");
         }
-        if (collision.GetComponentInParent<roomParameters>())
+        if (collision.tag == "currentRoom")
         {
             collision.GetComponentInParent<roomParameters>().activation();
         }

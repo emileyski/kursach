@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -102,6 +102,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1588,21 +1600,21 @@ TextureImporter:
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_2510: 1118646423
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_1709: 247787969
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_985: 1804925447
+      SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_12: -805449549
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_476: 247437043
-      SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_646: 1833236078
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_1979: 528156444
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_222: 411339152
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_941: -1980694746
-      SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_12: -805449549
+      SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_903: 1011366517
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_496: -409991105
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_2679: 465103681
-      SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_903: 1011366517
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_730: -1412418764
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_2498: -424595722
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_2659: 277717693
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_672: 249886336
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_2051: 982934285
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_1227: 583826588
+      SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_646: 1833236078
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_1011: 1013742101
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_43: -1505318918
       SpriteAtlasTexture-character01 (Group 0)-2048x2048-fmt4_394: -2046888389
