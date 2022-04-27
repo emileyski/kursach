@@ -12,7 +12,7 @@ public class unit : MonoBehaviour
 
     protected NavMeshAgent agent;
     //до обновлений;
-    Vector3 player;
+    GameObject player;
     public string whoIsIt;
     protected Animator animator;
     [SerializeField] float atackRange;
@@ -21,7 +21,7 @@ public class unit : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
-        player = GameObject.Find("Player").transform.position;
+        player = GameObject.Find("Player");
         agent.updateRotation = false;
         agent.updateUpAxis = false;
 
@@ -36,11 +36,11 @@ public class unit : MonoBehaviour
     {
         if (isActivated)
         {
-            agent.SetDestination(player);
-            bool x = (Vector3.Distance(transform.position, player) < atackRange) ? true : false;
+            agent.SetDestination(player.transform.position);
+            bool x = (Vector3.Distance(transform.position, player.transform.position) < atackRange) ? true : false;
             if (animator.GetBool("IsAttacking") != x)
                 animator.SetBool("IsAttacking", x);
-            transform.localScale = (player.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
+            transform.localScale = (player.transform.position.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
         }
     }
     IEnumerator Atack()
