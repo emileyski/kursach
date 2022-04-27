@@ -36,8 +36,7 @@ public class unit : MonoBehaviour
     {
         if (isActivated)
         {
-            if(Vector3.Distance(transform.position, player.transform.position) > atackRange) 
-                agent.SetDestination(player.transform.position);
+            agent.SetDestination(player.transform.position);
             bool x = (Vector3.Distance(transform.position, player.transform.position) < atackRange) ? true : false;
             if (x && !atacking)
             {
@@ -48,14 +47,17 @@ public class unit : MonoBehaviour
     }
     IEnumerator Atack()
     {
-        atacking = true;
-        animator.SetBool("IsAttacking", true);
-        GetComponentInChildren<Collider2D>().enabled = true;
-        yield return new WaitForSeconds(0.5f);
-        animator.SetBool("IsAttacking", false);
-        GetComponentInChildren<Collider2D>().enabled = false;
-        yield return new WaitForSeconds(1.5f);
-        atacking = false;
+        if (isActivated)
+        {
+            atacking = true;
+            animator.SetBool("IsAttacking", true);
+            GetComponentInChildren<Collider2D>().enabled = true;
+            yield return new WaitForSeconds(0.5f);
+            animator.SetBool("IsAttacking", false);
+            GetComponentInChildren<Collider2D>().enabled = false;
+            yield return new WaitForSeconds(1.5f);
+            atacking = false;
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -65,7 +67,6 @@ public class unit : MonoBehaviour
             if (lifeCount <= 0)
             {
                 agent.isStopped = true;
-                agent.speed = 0;
                 animator.SetTrigger("died");
                 isActivated = false;
                 transform.Find("Weapon").gameObject.SetActive(false);
