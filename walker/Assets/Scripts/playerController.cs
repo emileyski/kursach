@@ -33,7 +33,7 @@ public class playerController : MonoBehaviour
         {
             print("Suck");
         }
-        if (collision.GetComponentInParent<roomParameters>())
+        if (collision.tag == "currentRoom")
         {
             collision.GetComponentInParent<roomParameters>().activation();
         }

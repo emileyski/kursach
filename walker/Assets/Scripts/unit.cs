@@ -29,22 +29,33 @@ public class unit : MonoBehaviour
     {
         animator.SetTrigger("isActivated");
         isActivated = true;
+        GetComponentInChildren<Collider2D>().enabled = false;
     }
     // Update is called once per frame
     void Update()
     {
         if (isActivated)
         {
-            agent.SetDestination(player.transform.position);
+            if(Vector3.Distance(transform.position, player.transform.position) > atackRange) 
+                agent.SetDestination(player.transform.position);
             bool x = (Vector3.Distance(transform.position, player.transform.position) < atackRange) ? true : false;
-            if (animator.GetBool("IsAttacking") != x)
-                animator.SetBool("IsAttacking", x);
+            if (x && !atacking)
+            {
+                StartCoroutine("Atack");
+            }
             transform.localScale = (player.transform.position.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
         }
     }
     IEnumerator Atack()
     {
+        atacking = true;
+        animator.SetBool("IsAttacking", true);
+        GetComponentInChildren<Collider2D>().enabled = true;
         yield return new WaitForSeconds(0.5f);
+        animator.SetBool("IsAttacking", false);
+        GetComponentInChildren<Collider2D>().enabled = false;
+        yield return new WaitForSeconds(1.5f);
+        atacking = false;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -52,7 +63,13 @@ public class unit : MonoBehaviour
         {
             lifeCount -= collision.GetComponentInParent<weaponController>().damageCount;
             if (lifeCount <= 0)
-                Destroy(gameObject);
+            {
+                agent.isStopped = true;
+                agent.speed = 0;
+                animator.SetTrigger("died");
+                isActivated = false;
+                transform.Find("Weapon").gameObject.SetActive(false);
+            }
         }
         if (collision.GetComponentInParent<roomParameters>())
         {

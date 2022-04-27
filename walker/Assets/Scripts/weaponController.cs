@@ -33,12 +33,10 @@ public class weaponController : MonoBehaviour
     {
         if (isAttack)
         {
-            GetComponentInChildren<BoxCollider2D>().enabled = true;
             animator.SetBool("Attack", true);
         }
         else
         {
-            GetComponentInChildren<BoxCollider2D>().enabled = false;
             animator.SetBool("Attack", false);
         }
     }
