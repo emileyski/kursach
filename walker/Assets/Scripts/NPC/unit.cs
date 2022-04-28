@@ -61,6 +61,16 @@ public class unit : MonoBehaviour
             atacking = false;
         }
     }
+    protected virtual void die()
+    {
+        agent.isStopped = true;
+        animator.SetTrigger("isDied");
+        isActivated = false;
+        agent.isStopped = true;
+        transform.Find("Weapon").gameObject.SetActive(false);
+        GetComponent<CapsuleCollider2D>().enabled = false;
+        currentRoom.someUnitIsZdoh();
+    }
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<weaponController>())
@@ -68,12 +78,7 @@ public class unit : MonoBehaviour
             lifeCount -= collision.GetComponent<weaponController>().damageCount;
             if (lifeCount <= 0)
             {
-                agent.isStopped = true;
-                animator.SetTrigger("isDied");
-                isActivated = false;
-                agent.isStopped = true;
-                transform.Find("Weapon").gameObject.SetActive(false);
-                GetComponent<CapsuleCollider2D>().enabled = false;
+                die();
             }
         }
         if (collision.GetComponentInParent<roomParameters>())
