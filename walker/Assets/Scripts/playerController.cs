@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
@@ -38,7 +39,9 @@ public class playerController : MonoBehaviour
     {
         if(collision.gameObject.layer == 8)
         {
-            print("Suck");
+            life_count--;
+            if (life_count <= 0)
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         if (collision.tag == "currentRoom")
         {
