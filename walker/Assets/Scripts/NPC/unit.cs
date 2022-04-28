@@ -55,10 +55,8 @@ public class unit : MonoBehaviour
         {
             atacking = true;
             animator.SetBool("IsAttacking", true);
-            GetComponentInChildren<BoxCollider2D>().enabled = true;
             yield return new WaitForSeconds(0.45f);
             animator.SetBool("IsAttacking", false);
-            GetComponentInChildren<BoxCollider2D>().enabled = false;
             yield return new WaitForSeconds(1.5f);
             atacking = false;
         }
