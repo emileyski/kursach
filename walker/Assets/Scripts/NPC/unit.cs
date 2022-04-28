@@ -63,10 +63,9 @@ public class unit : MonoBehaviour
     }
     protected virtual void die()
     {
-        agent.isStopped = true;
         animator.SetTrigger("isDied");
         isActivated = false;
-        agent.isStopped = true;
+        agent.SetDestination(transform.position);
         transform.Find("Weapon").gameObject.SetActive(false);
         GetComponent<CapsuleCollider2D>().enabled = false;
         currentRoom.someUnitIsZdoh();
