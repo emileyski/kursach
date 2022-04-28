@@ -32,22 +32,39 @@ public class unit : MonoBehaviour
         isActivated = true;
     }
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
-        if (isActivated)
+        unit_moveing();
+    }
+    protected virtual void unit_moveing()
+    {
+        if (isActivated && !atacking)
         {
             agent.SetDestination(player.transform.position);
             bool x = (Vector3.Distance(transform.position, player.transform.position) < atackRange) ? true : false;
-            if (animator.GetBool("IsAttacking") != x)
-                animator.SetBool("IsAttacking", x);
+            if (x && !atacking)
+            {
+                StartCoroutine("Atack");
+            }
             transform.localScale = (player.transform.position.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
         }
     }
-    IEnumerator Atack()
+    //do izmeneniy
+    protected virtual IEnumerator Atack()
     {
-        yield return new WaitForSeconds(0.5f);
+        if (isActivated)
+        {
+            atacking = true;
+            animator.SetBool("IsAttacking", true);
+            GetComponentInChildren<Collider2D>().enabled = true;
+            yield return new WaitForSeconds(0.45f);
+            animator.SetBool("IsAttacking", false);
+            GetComponentInChildren<Collider2D>().enabled = false;
+            yield return new WaitForSeconds(1.5f);
+            atacking = false;
+        }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponentInParent<weaponController>())
         {

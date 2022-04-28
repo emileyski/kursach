@@ -6,7 +6,6 @@ public class playerController : MonoBehaviour
 {
     public int life_count;
     Animator animator;
-    string pidaras;
 
     private GameObject weapon;
 
