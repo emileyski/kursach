@@ -19,7 +19,6 @@ public class roomParameters : MonoBehaviour
         for(int i = 0; i<unitsInRoom.Length; i++)
         {
             unitsInRoom[i].activation();
-            print("Unit number " + i + " is activated");
         }
         transform.Find("Floor").GetComponent<Collider2D>().enabled = false;
     }

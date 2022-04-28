@@ -12,10 +12,9 @@ public class unit : MonoBehaviour
 
     protected NavMeshAgent agent;
     //до обновлений;
-    GameObject player;
-    public string whoIsIt;
+    protected GameObject player;
     protected Animator animator;
-    [SerializeField] float atackRange;
+    [SerializeField] protected float atackRange;
     protected bool isActivated = false, atacking = false;
     protected virtual void Start()
     {
@@ -56,31 +55,31 @@ public class unit : MonoBehaviour
         {
             atacking = true;
             animator.SetBool("IsAttacking", true);
-            GetComponentInChildren<Collider2D>().enabled = true;
+            GetComponentInChildren<BoxCollider2D>().enabled = true;
             yield return new WaitForSeconds(0.45f);
             animator.SetBool("IsAttacking", false);
-            GetComponentInChildren<Collider2D>().enabled = false;
+            GetComponentInChildren<BoxCollider2D>().enabled = false;
             yield return new WaitForSeconds(1.5f);
             atacking = false;
         }
     }
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponentInParent<weaponController>())
+        if (collision.GetComponent<weaponController>())
         {
-            lifeCount -= collision.GetComponentInParent<weaponController>().damageCount;
+            lifeCount -= collision.GetComponent<weaponController>().damageCount;
             if (lifeCount <= 0)
             {
                 agent.isStopped = true;
                 animator.SetTrigger("isDied");
                 isActivated = false;
+                agent.isStopped = true;
                 transform.Find("Weapon").gameObject.SetActive(false);
                 GetComponent<CapsuleCollider2D>().enabled = false;
             }
         }
         if (collision.GetComponentInParent<roomParameters>())
         {
-            print("good");
             currentRoom = collision.GetComponentInParent<roomParameters>();
             unit[] x = currentRoom.unitsInRoom;
             currentRoom.unitsInRoom = new unit[currentRoom.unitsInRoom.Length + 1];

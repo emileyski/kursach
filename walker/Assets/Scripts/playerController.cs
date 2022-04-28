@@ -6,6 +6,7 @@ public class playerController : MonoBehaviour
 {
     public int life_count;
     Animator animator;
+    private Rigidbody2D rb;
 
     private GameObject weapon;
 
@@ -14,6 +15,7 @@ public class playerController : MonoBehaviour
     private float speed;
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         joystick = GameObject.Find("Fixed Joystick").GetComponent<Joystick>();
         weapon = transform.Find("Weapon").gameObject;
@@ -34,7 +36,7 @@ public class playerController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.GetComponentInParent<unit>())
+        if(collision.gameObject.layer == 8)
         {
             print("Suck");
         }

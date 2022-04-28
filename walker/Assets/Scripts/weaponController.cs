@@ -5,7 +5,6 @@ using UnityEngine;
 public class weaponController : MonoBehaviour
 {
     public int damageCount;
-    public string weapon_type;
     private Joystick joystick;
     private SpriteRenderer weapon_sprite;
     private float angle;
@@ -18,7 +17,6 @@ public class weaponController : MonoBehaviour
     }
     private void Update()
     {
-        if (weapon_type != "bow")
             RotateWeapon();
     }
     void RotateWeapon()
@@ -33,12 +31,10 @@ public class weaponController : MonoBehaviour
     {
         if (isAttack)
         {
-            GetComponentInChildren<BoxCollider2D>().enabled = true;
             animator.SetBool("Attack", true);
         }
         else
         {
-            GetComponentInChildren<BoxCollider2D>().enabled = false;
             animator.SetBool("Attack", false);
         }
     }

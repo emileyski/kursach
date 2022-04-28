@@ -15,7 +15,7 @@ public class melee_unit : unit
         GetComponentInChildren<BoxCollider2D>().enabled = true;
     }
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
         
     }
