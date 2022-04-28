@@ -17,7 +17,7 @@ public class shootingMonster : unit
     }
     protected override void Update()
     {
-        if(isActivated)
+        if(isActivated && !isDied)
             base.Update();
     }
     protected override void unit_moveing()
