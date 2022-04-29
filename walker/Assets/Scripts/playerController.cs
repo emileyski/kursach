@@ -47,8 +47,6 @@ public class playerController : MonoBehaviour
         if(collision.gameObject.layer == 8)
         {
             life_count--;
-            if (life_count <= 0)
-                Invoke("SceneReload", 2f);
         }
         if (collision.tag == "currentRoom")
         {
@@ -65,8 +63,10 @@ public class playerController : MonoBehaviour
         {
             isAlive = false;
             animator.SetTrigger("IsDead");
+            Invoke("SceneReload", 2f);
         }
     }
+
 
     public void shooting(bool isShoot)
     {
