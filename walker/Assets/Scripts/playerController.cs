@@ -68,10 +68,6 @@ public class playerController : MonoBehaviour
         }
     }
 
-    void DisableControls()
-    {
-
-    }
     public void shooting(bool isShoot)
     {
         weapon.GetComponent<weaponController>().attack(isShoot);
