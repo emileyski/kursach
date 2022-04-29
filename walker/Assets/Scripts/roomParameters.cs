@@ -7,7 +7,7 @@ public class roomParameters : MonoBehaviour
 {
     NavMeshSurface2d NavMesh;
     public unit[] unitsInRoom;
-    int x = 0;
+    int x = 0, enemy_waves = 0;
     void Start()
     {
         NavMesh = GameObject.Find("NavMesh Surface").GetComponent<NavMeshSurface2d>();
@@ -28,8 +28,7 @@ public class roomParameters : MonoBehaviour
         x++;
         if (x == unitsInRoom.Length)
         {
-            transform.Find("Gates_0").gameObject.SetActive(false);
-            transform.Find("Gates_1").gameObject.SetActive(false);
+            unitsInRoom = new unit[0];
         }
     }
 }

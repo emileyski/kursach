@@ -15,7 +15,7 @@ public class unit : MonoBehaviour
     protected GameObject player;
     protected Animator animator;
     [SerializeField] protected float atackRange;
-    protected bool isActivated = false, atacking = false;
+    protected bool isActivated = false, atacking = false, isDied = false;
     protected virtual void Start()
     {
         animator = GetComponent<Animator>();
@@ -37,7 +37,7 @@ public class unit : MonoBehaviour
     }
     protected virtual void unit_moveing()
     {
-        if (isActivated && !atacking)
+        if (isActivated && !atacking && !isDied)
         {
             agent.SetDestination(player.transform.position);
             bool x = (Vector3.Distance(transform.position, player.transform.position) < atackRange) ? true : false;
@@ -69,6 +69,7 @@ public class unit : MonoBehaviour
         transform.Find("Weapon").gameObject.SetActive(false);
         GetComponent<CapsuleCollider2D>().enabled = false;
         currentRoom.someUnitIsZdoh();
+        isDied = true;
     }
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
