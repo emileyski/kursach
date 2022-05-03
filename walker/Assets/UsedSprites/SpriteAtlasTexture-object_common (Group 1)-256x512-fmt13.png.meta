@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d08ad76de2972804a8f3a36df09b862d
+guid: 4f58b290c1de4fb41b4fb0717f3ba52c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -112,89 +112,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sword_0
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_0
       rect:
         serializedVersion: 2
-        x: 162
-        y: 196
-        width: 40
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 6.5}
-        - {x: -20, y: 2.5}
-        - {x: -20, y: -6.5}
-        - {x: -17, y: -1.5}
-        - {x: -15, y: -6.5}
-        - {x: 12, y: -6.5}
-        - {x: 20, y: -3.5}
-        - {x: 20, y: 4.5}
-        - {x: 12, y: 6.5}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12b93908b81d67e41a0f19bfbd2f4a60
-      internalID: -431060008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: axe_01
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 128
-        width: 24
-        height: 13
-      alignment: 9
-      pivot: {x: 0.15, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f95782fa73024f47a5eeb9a585b7559
-      internalID: 1518085207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_0
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 238
-        width: 27
-        height: 9
-      alignment: 9
-      pivot: {x: 0.15, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 015de1f35b27b71438f27e87b35c60ea
-      internalID: 19840385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bow_01_idle
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 186
-        width: 20
-        height: 20
+        x: 67
+        y: 176
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,19 +142,145 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99888028624584540b170c183bc5c4c9
-      internalID: -1955816200
+      spriteID: d8628487b8b408244adf7b54e257b277
+      internalID: 1560930728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_3
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_1
       rect:
         serializedVersion: 2
-        x: 286
-        y: 228
-        width: 37
+        x: 68
+        y: 154
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f89fc22f265ba14d8355be5450d80a5
+      internalID: -1708403836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 198
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b7dafea1eca8f48830ac12cf2f6692
+      internalID: -449927033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 145
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e976fd09b228345b58cdfb9ce34014
+      internalID: 1985855509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 185
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5952a15707975064a9602d73b1e7e8f2
+      internalID: 1104277008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 284
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f49cdbce08505e43baabe217935cd7a
+      internalID: 724186711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 261
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e9e634bfadf3240a638432ee5fd14d
+      internalID: 1614405374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_01
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 408
+        width: 5
         height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -223,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07771f1fa1fc6d344848e7c3ab8ba911
-      internalID: 2075418708
+      spriteID: 7f1602215c6971c408b550361a9abf50
+      internalID: -1080412449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_01
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_7
       rect:
         serializedVersion: 2
-        x: 111
-        y: 162
-        width: 30
-        height: 16
+        x: 174
+        y: 105
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,239 +310,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbd5fe52cc90439428ae1bbd7b771c6d
-      internalID: -2129548022
+      spriteID: 12fc9042b0face446a60b70bc44c12e7
+      internalID: 1481756900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_1
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_8
       rect:
         serializedVersion: 2
-        x: 192
-        y: 281
-        width: 24
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 2, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8bb7b7d49b378e47ba12299e86682d0
-      internalID: -302755898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_2
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 319
-        width: 16
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44c08ed52e579d340aa7f7ba93c8aae6
-      internalID: -1534896609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_4
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 296
-        width: 21
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec49c2ecb04bafd458d856605e7e3603
-      internalID: 680279113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_5
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 414
-        width: 17
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab241beb4514b3849859eeef19feb432
-      internalID: 760165418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 224
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f73b2e995588b354b889309a9b2b58ed
-      internalID: -1537724008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_7
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 149
-        width: 39
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dec49b231b325a64eb639961f5718a71
-      internalID: -1125109391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 111
-        width: 44
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e01bb03ae38a77d4da29d33a468196f2
-      internalID: 1605357925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_9
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 26
-        width: 44
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebc709cf843468f4a9fa39145fd37e1c
-      internalID: -1669587991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_10
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 256
-        width: 23
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7f7df0780332ce4f923abfd5c178aef
-      internalID: -386238747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_11
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 14
-        width: 29
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3de17e7a30fd2e4aa7e50a4f7f0abf2
-      internalID: -94842511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bow_01_atack
-      rect:
-        serializedVersion: 2
-        x: 249
+        x: 47
         y: 0
-        width: 20
-        height: 20
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be13a3c3fa8aa9d44b28a21fcbb13e39
-      internalID: -1729555950
+      spriteID: 86fd3fe3e4630f84fbeb59ebb2fe5278
+      internalID: 576962966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 32
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb97fa8e859e21244b9ba0638c3aa83f
+      internalID: -1188199093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab807261b23263a4ebeaca9f08b8a21b
+      internalID: 199313279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 258
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0480e048c264aa44ca23c3575fdb5bf0
+      internalID: 1494843749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 271
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a67f9d5675dc24cb99938521fc370a
+      internalID: 253765200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 208
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8277e5c50280a4193fd8fe74c4fb3e
+      internalID: -1821083109
       vertices: []
       indices: 
       edges: []
@@ -492,23 +453,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hammer_01: -2129548022
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_7: -1125109391
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_5: 760165418
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_11: -94842511
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_2: -1534896609
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_0: 19840385
-      sword_0: -431060008
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_9: -1669587991
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_6: -1537724008
-      bow_01_atack: -1729555950
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_1: -302755898
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_10: -386238747
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_3: 2075418708
-      bow_01_idle: -1955816200
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_8: 1605357925
-      SpriteAtlasTexture-weapon (Group 1)-512x512-fmt13_4: 680279113
-      axe_01: 1518085207
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_5: 724186711
+      00: -449927033
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_10: 199313279
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_8: 576962966
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_3: 1985855509
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_1: -1708403836
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_7: 1481756900
+      coin_01: -1080412449
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_12: 253765200
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_11: 1494843749
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_0: 1560930728
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_4: 1104277008
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_6: 1614405374
+      01: -1821083109
+      SpriteAtlasTexture-object_common (Group 1)-256x512-fmt13_9: -1188199093
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

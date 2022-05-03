@@ -1,22 +1,26 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class melee_unit : unit
+public class melee_unit : base_unit
 {
-    // Start is called before the first frame update
-    protected override void Start()
+    private bool x = false;// служебная переменная для того, чтобы узнать на перезарядке(кулдауне) ли наша атака
+    protected override void moveing()
     {
-        base.Start();
+        base.moveing();
+        if (atackRange > Vector3.Distance(transform.position, player.transform.position) && !animator.GetBool("IsAttacking") && x == false)
+            StartCoroutine("Atack", true);
     }
-    public override void activation()
+    protected override IEnumerator Atack(bool toAtack)
     {
-        GetComponentInChildren<BoxCollider2D>().enabled = true;
-    }
-    // Update is called once per frame
-    protected override void Update()
-    {
-        
+        animator.SetBool("IsAttacking", true);
+        x = true;
+        Weapon.GetComponent<BoxCollider2D>().enabled = true;
+        yield return new WaitForSeconds(0.5f);//проигрываем анимацию(бъем)
+        animator.SetBool("IsAttacking", false);
+        Weapon.GetComponent<BoxCollider2D>().enabled = false;
+        yield return new WaitForSeconds(cooldown);//откатываемся
+        x = false;
     }
 }

@@ -6,8 +6,7 @@ public class shootingMonster : unit
 {
     [SerializeField] GameObject bulletPrefab;
     private GameObject Weapon;
-    [SerializeField] float cooldown;
-    private float x;
+    private float x , cooldown;
     protected override void Start()
     {
         base.Start();
@@ -17,20 +16,19 @@ public class shootingMonster : unit
     }
     protected override void Update()
     {
-        if(isActivated && !isDied)
-            base.Update();
+        base.Update();
     }
-    protected override void unit_moveing()
-    {
-        transform.localScale = (player.transform.position.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
-        Weapon.transform.localScale = (player.transform.position.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
-        if (Vector3.Distance(transform.position, player.transform.position) < atackRange)
-        {
-            agent.isStopped = true;
-            pointing_the_bow();
-        }
-        else { agent.SetDestination(player.transform.position); }
-    }
+    //protected override void unit_moveing()
+    //{
+    //    transform.localScale = (player.transform.position.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
+    //    Weapon.transform.localScale = (player.transform.position.x > transform.position.x) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
+    //    if (Vector3.Distance(transform.position, player.transform.position) < atackRange)
+    //    {
+    //        agent.isStopped = true;
+    //        pointing_the_bow();
+    //    }
+    //    else { agent.SetDestination(player.transform.position); }
+    //}
     private void pointing_the_bow()
     {
         Vector2 direction = new Vector2(player.transform.position.x, player.transform.position.y) - new Vector2(transform.position.x, transform.position.y);

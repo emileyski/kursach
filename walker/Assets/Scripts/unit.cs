@@ -8,14 +8,14 @@ public class unit : MonoBehaviour
     [SerializeField]
     protected int lifeCount;
 
-    private roomParameters currentRoom;
+    public roomParameters currentRoom;
 
     protected NavMeshAgent agent;
     //до обновлений;
     protected GameObject player;
     protected Animator animator;
     [SerializeField] protected float atackRange;
-    protected bool isActivated = false, atacking = false, isDied = false;
+    public bool isActivated = false, atacking = false, isDied = false;
     protected virtual void Start()
     {
         animator = GetComponent<Animator>();
@@ -84,13 +84,13 @@ public class unit : MonoBehaviour
         if (collision.GetComponentInParent<roomParameters>())
         {
             currentRoom = collision.GetComponentInParent<roomParameters>();
-            unit[] x = currentRoom.unitsInRoom;
-            currentRoom.unitsInRoom = new unit[currentRoom.unitsInRoom.Length + 1];
+            //unit[] x = currentRoom.unitsInRoom;
+            //currentRoom.unitsInRoom = new unit[currentRoom.unitsInRoom.Length + 1];
             for(int i = 0; i < currentRoom.unitsInRoom.Length - 1; i++)
             {
-                currentRoom.unitsInRoom[i] = x[i];
+             //   currentRoom.unitsInRoom[i] = x[i];
             }
-            currentRoom.unitsInRoom[currentRoom.unitsInRoom.Length - 1] = gameObject.GetComponent<unit>();
+           // currentRoom.unitsInRoom[currentRoom.unitsInRoom.Length - 1] = gameObject.GetComponent<unit>();
         }
     }
 }

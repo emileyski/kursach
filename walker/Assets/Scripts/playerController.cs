@@ -25,7 +25,7 @@ public class playerController : MonoBehaviour
     void Update()
     {
         PlayerAnimation();
-        transform.position += new Vector3(speed * Time.deltaTime * joystick.Horizontal, speed * Time.deltaTime * joystick.Vertical, 0f);
+        rb.velocity = new Vector2(joystick.Horizontal,joystick.Vertical) * speed;
         if (joystick.Horizontal != 0)
             transform.localScale = (joystick.Horizontal > 0) ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
     }
@@ -46,6 +46,11 @@ public class playerController : MonoBehaviour
         if (collision.tag == "currentRoom")
         {
             collision.GetComponentInParent<roomParameters>().activation();
+        }
+        if(collision.tag == "chest")
+        {
+            collision.GetComponent<BoxCollider2D>().enabled = false;
+            collision.GetComponent<Animator>().SetTrigger("opening");
         }
     }
     public void shooting(bool isShoot)
