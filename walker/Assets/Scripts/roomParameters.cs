@@ -13,6 +13,9 @@ public class roomParameters : MonoBehaviour
     void Start()
     {
         NavMesh = GameObject.Find("NavMesh Surface").GetComponent<NavMeshSurface2d>();
+        GameObject hall_checker = transform.Find("hall_checker").gameObject;
+        hall_checker.transform.position += new Vector3(0, 20.5f);
+
     }
     public void activation()
     {

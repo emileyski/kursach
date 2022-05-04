@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644125874338689155}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -739,48 +739,32 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 1644125874338689278}
     m_ColliderPaths:
-    - - X: 120000100
-        Y: 24999959
-      - X: 120000100
-        Y: 35000041
-      - X: 120000041
-        Y: 35000100
-      - X: -119999959
-        Y: 35000100
-      - X: -119999900
-        Y: 35000041
-      - X: -119999900
-        Y: 24999959
-      - X: -119999959
-        Y: 24999900
-      - X: 120000041
-        Y: 24999900
-    - - X: 120000100
-        Y: -35000041
-      - X: 120000100
-        Y: -24999959
-      - X: 120000041
-        Y: -24999900
-      - X: -119999959
-        Y: -24999900
-      - X: -119999900
-        Y: -24999959
-      - X: -119999900
-        Y: -35000041
-      - X: -119999959
-        Y: -35000100
-      - X: 120000041
-        Y: -35000100
+    - - X: 120000000
+        Y: 35000000
+      - X: -120000000
+        Y: 35000000
+      - X: -120000000
+        Y: 25000000
+      - X: 120000000
+        Y: 25000000
+    - - X: 120000000
+        Y: -25000000
+      - X: -120000000
+        Y: -25000000
+      - X: -120000000
+        Y: -35000000
+      - X: 120000000
+        Y: -35000000
   m_CompositePaths:
     m_Paths:
-    - - {x: 11.999974, y: 2.49999}
-      - {x: 11.999974, y: 3.50001}
-      - {x: -11.99999, y: 3.4999747}
-      - {x: -11.999967, y: 2.49999}
-    - - {x: 11.999974, y: -3.50001}
-      - {x: 11.999974, y: -2.49999}
-      - {x: -11.99999, y: -2.5000253}
-      - {x: -11.999967, y: -3.50001}
+    - - {x: 11.99997, y: 2.5}
+      - {x: 11.99997, y: 3.5}
+      - {x: -12, y: 3.499971}
+      - {x: -11.99997, y: 2.5}
+    - - {x: 11.99997, y: -3.5}
+      - {x: 11.99997, y: -2.5}
+      - {x: -12, y: -2.5000293}
+      - {x: -11.99997, y: -3.5}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!114 &1644125874338689277
@@ -813,7 +797,7 @@ GameObject:
   - component: {fileID: 1644125874607732865}
   m_Layer: 8
   m_Name: Floor
-  m_TagString: currentRoom
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -826,7 +810,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644125874607732871}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2759,7 +2743,7 @@ GameObject:
   - component: {fileID: 1644125874963891926}
   m_Layer: 0
   m_Name: Corridor_right-left
-  m_TagString: currentRoom
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -114,7 +114,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_93
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 797
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12645a5c4547a40478f44beb46c86436
+      internalID: 1915811806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_115
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 760
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8a5c62f7309ec4696055e395a841a8
+      internalID: -1229166507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_122
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 751
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0578fd70156655940918d918418c55f7
+      internalID: 434812973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_123
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 751
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe3143b82b9941489affdbdd5f128bb
+      internalID: 2118416641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_331
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 359
+        width: 83
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f8b6df1e4855149bb5b0538a876284
+      internalID: -2096613194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_373
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 246
+        width: 93
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a075fb1609b3c1d4aadefdaeb0a68467
+      internalID: -917647797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_415
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 115
+        width: 83
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aefe7c9f95f1a409d1060f8c14b073
+      internalID: -120197342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_416
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 113
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbc0bf40609ab642ba2f98af0a505dd
+      internalID: -914838863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_438
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2
+        width: 85
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8958e8c908b9b49a83607e4ff8e0b4
+      internalID: 1425964284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_439
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6fa8ff87ba3ef49b29633a62492e0c
+      internalID: 70170654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_440
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2
+        width: 81
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abf65726219a3f4cac11aba02fc5182
+      internalID: -209998881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_441
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ccf8359be49694f80622e825fbbc13
+      internalID: -1334604965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_442
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 2
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406d2fe5e0bc9084e9119879d08da6db
+      internalID: 1673046129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_0
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 287
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d853e86ebf916df41b1ebf3a0ed86d9b
+      internalID: 1904260348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 169
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5e3f190f075b44faa14ba1006de921
+      internalID: 1368605409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 260
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358eef7b414d5274988c7c7e821ecb43
+      internalID: 1968596515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 261
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac8f504dbcfdeb4e8def5d9b9f8862b
+      internalID: -275862254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 142
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171d9c091253d3341b48bb3b09712347
+      internalID: 2023102648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 132
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2791c1de995a59447810d50741e181b7
+      internalID: 1428251735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 10
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b179df4f989b148975e53a2a4db6b3
+      internalID: 461349195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -125,7 +545,459 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_406: 140383632
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_344: 201077292
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_213: 281581678
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_63: 1357176128
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_156: 840167834
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_188: -1963057201
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_130: 718380534
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_349: -546928593
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_381: 879488427
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_26: -1231885024
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_56: 144378120
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_25: -1834070828
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_304: -1805486233
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_451: -583907946
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_369: -305832444
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_1: 1368605409
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_391: -1308591760
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_73: 1098036767
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_0: 1904260348
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_211: -837812961
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_14: -1272768202
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_27: 1981336704
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_294: 1298301746
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_24: -1961588374
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_428: -1275853350
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_202: 493410170
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_348: -1790550259
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_121: 1287993214
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_310: -414906882
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_62: 446178135
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_357: 1117941675
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_153: 908476232
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_366: -876236384
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_341: 2050240562
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_40: -641148469
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_378: 1846692956
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_60: 1849605170
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_112: -1864699959
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_5: 1428251735
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_443: 1392769453
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_117: 1110854526
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_128: -1011052449
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_187: -522308362
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_312: 539216380
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_233: 26980874
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_359: 153051150
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_217: 125441864
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_276: -1126038854
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_365: -997795088
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_400: -109577418
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_409: -356504249
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_335: -1515617471
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_405: 496684701
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_411: 1004776134
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_37: -606433921
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_407: 903408333
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_10: -358524154
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_442: 1673046129
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_29: 1746011712
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_190: 1654588305
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_316: -1734691435
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_255: -230325523
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_184: 863648464
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_59: 1772596629
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_76: 441391654
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_105: 472412428
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_9: -1503538446
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_358: -670701967
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_36: -450685352
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_347: 354301431
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_367: 1458020042
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_260: 1882225306
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_181: 480165814
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_139: -158864954
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_370: -1107706622
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_6: 461349195
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_152: 1319205316
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_43: 796523074
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_219: 1025217277
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_3: -275862254
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_89: 1346319551
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_377: 491428864
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_403: 753271738
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_263: 1731835063
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_71: 1383781529
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_325: 1367168524
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_123: 2118416641
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_97: 563979634
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_93: 1915811806
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_246: 1501418537
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_250: -1809987733
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_311: -377135673
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_402: -1624951367
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_199: 1634304009
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_322: 1411419881
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_425: 1313312083
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_338: 5920569
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_272: -1764114257
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_245: -1952317185
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_259: 924510049
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_303: -1112572291
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_215: -339599806
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_422: 1727478191
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_4: 2023102648
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_124: 315500459
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_175: -1186654047
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_90: 60729561
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_239: 311252084
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_210: -1048131495
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_104: 2000812765
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_319: -791369059
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_133: 1280767028
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_66: 483954200
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_412: -1700860153
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_99: 592057446
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_420: 156036833
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_268: -1293206069
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_171: -1011079724
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_235: 374641285
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_106: 1630707791
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_150: -26208642
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_380: -537639323
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_384: 378964258
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_81: -1247344834
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_12: -500412425
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_386: 1876939512
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_280: 379220862
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_438: 1425964284
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_157: -1134111601
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_302: -1643486206
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_382: -1943242266
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_164: 1365999715
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_201: 260568476
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_254: 1026826911
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_61: -1020469474
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_141: -966354817
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_191: -133222465
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_67: -398738245
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_321: 407554012
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_253: -1867108403
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_269: -170380826
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_180: -1741660577
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_92: -1518564917
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_19: -1415809896
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_362: 418049516
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_203: -452140818
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_51: -1430983819
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_22: 1841364536
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_52: 643719218
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_390: -744013605
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_355: 1173094077
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_444: 957343023
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_179: -1124900395
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_70: 1685508877
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_284: 1053796625
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_300: 1700459960
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_396: 1329441866
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_154: 1762319212
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_205: 141249709
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_200: 1735668400
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_132: 709396663
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_350: -766194548
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_32: -621528307
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_118: 119775853
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_336: 2071078315
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_173: 2015112556
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_279: -1417079854
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_94: -1648901628
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_342: -804098716
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_351: 1674258558
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_241: 77607957
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_449: -602498694
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_353: 1283248364
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_198: 248537498
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_177: 2130599194
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_83: 643599643
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_410: 1808921921
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_352: -1984333827
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_143: 571994160
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_136: 1161708930
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_340: -889129137
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_331: -2096613194
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_307: 1111117836
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_441: -1334604965
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_107: -614986335
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_98: -95541923
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_39: 1468197748
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_182: -1159433621
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_333: 971148121
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_236: -892285647
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_327: 1256795929
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_330: -1625991045
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_108: -1468813535
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_376: -272641584
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_257: 82937478
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_387: 304002498
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_383: -95864811
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_212: 1145190612
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_85: -1211552599
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_125: -720895804
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_116: 1950329980
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_267: 1047681415
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_394: 10845427
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_169: -1637788954
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_299: 997876110
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_419: 2116814390
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_79: -638418092
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_110: -305907061
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_361: 70465176
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_75: 417266652
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_251: -2089021431
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_131: 249037576
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_388: -643046853
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_38: 39262106
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_448: 902928362
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_134: -1389387659
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_423: -1735484222
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_374: 1438948365
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_301: 1889412890
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_295: 2108461486
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_100: 809113007
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_49: -480907212
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_127: -1834678331
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_223: 641311681
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_88: -1384783615
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_417: 883289506
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_101: 1956646299
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_450: -1424767994
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_57: -1423375382
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_209: -481931861
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_55: -472880769
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_324: 1604437914
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_129: -346778587
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_165: -946892286
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_58: 1418940157
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_147: -644763923
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_45: 675568857
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_220: 406366181
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_230: -1572186817
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_195: 1702218063
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_232: -2088042487
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_33: 289236930
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_247: 910743009
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_144: 714957692
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_398: 291993251
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_354: -1324575712
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_392: -1962899290
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_7: 1591769898
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_447: 1387356189
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_166: 735836740
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_82: -818911201
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_393: 734659067
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_429: -385520977
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_87: 1444324264
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_242: 1752646704
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_186: 1841263860
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_368: 1869888301
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_224: 1705534455
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_78: -366520207
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_64: -1359457667
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_142: -1029000149
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_248: -1709629185
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_427: 2135869749
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_174: -592388574
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_189: -2063803419
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_140: 1262422907
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_44: -725305810
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_138: 1344955240
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_109: 1703981814
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_172: 608084748
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_364: 2018139362
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_435: 2100645685
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_418: 1472740255
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_197: -1349193943
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_68: 1251344299
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_178: -139917330
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_292: -1221566738
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_225: 1702042335
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_145: -1925983164
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_151: 810821069
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_305: 75246575
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_320: -637389868
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_18: 634566810
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_271: 1902187824
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_148: 624056690
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_297: 1090900719
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_308: 1074686828
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_146: -1784627809
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_65: -1511614527
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_17: 24164226
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_226: -330162678
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_163: 1432131525
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_445: -255893307
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_194: -384946057
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_238: 1844690961
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_159: -478622216
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_375: -1930266957
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_23: -1222479791
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_2: 1968596515
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_135: 1191570907
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_389: -217980040
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_446: 1607691935
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_277: -433387331
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_176: 1830257655
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_35: 575351054
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_170: -725127208
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_281: 1555444052
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_278: -1431430134
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_270: -922387058
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_53: 206847025
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_298: 123147997
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_413: 1107882888
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_416: -914838863
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_421: 1486125893
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_345: -1668911360
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_237: -1793215634
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_167: 2008460979
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_77: -80230896
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_162: 661544398
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_42: -1915935148
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_206: -925015713
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_30: 1690989164
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_47: 1692605909
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_379: -1913573259
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_16: -46338408
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_168: 1230363126
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_264: 1024470023
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_289: -2119305069
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_265: -1573517144
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_397: -494446086
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_218: -843678837
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_440: -209998881
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_360: 1307900378
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_256: -960823622
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_385: 1417013005
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_96: -830019835
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_41: 250965655
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_214: -505208848
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_207: 1160671147
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_332: 182429171
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_286: -1199246814
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_258: -1891600091
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_328: -1178554582
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_401: 153265526
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_221: -336447180
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_216: 1454809555
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_334: 1620800428
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_114: 1801888936
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_193: -2069311271
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_313: 1124378235
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_291: 1912015234
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_339: -955447978
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_373: -917647797
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_285: -563004288
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_346: -845318872
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_31: -1651123524
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_287: 105244581
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_20: 1615028978
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_283: 1531468141
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_415: -120197342
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_21: 414130516
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_34: -689902522
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_222: 1724882407
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_54: 1706514561
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_122: 434812973
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_266: 1258747069
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_261: 736932245
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_48: -2073178302
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_262: -1115020621
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_290: 1784237581
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_120: -806203581
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_282: -2116277804
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_293: -1978948409
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_192: 696742893
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_275: -1698747221
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_395: 936607169
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_72: 669723742
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_86: -319853453
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_113: -1014903997
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_196: 775162650
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_431: 1574810256
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_288: 1310351767
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_309: 1380710016
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_115: -1229166507
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_204: -868265131
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_424: 362013065
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_432: 758894937
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_249: 1478810345
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_13: 1362334168
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_46: 294580853
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_137: -1740073964
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_306: 1017447713
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_103: 228570200
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_439: 70170654
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_119: -1716279003
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_243: -1369369108
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_315: -510939748
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_317: 1048914160
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_430: 1686231977
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_274: 562110515
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_208: -516220859
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_337: 1644092276
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_408: 143531395
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_126: -1769886542
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_356: 1768021014
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_399: -1626551268
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_296: -2044084734
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_28: -730773982
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_414: -2145770127
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_155: -11125693
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_161: 892413208
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_372: -1879492379
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_229: 2127432582
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_436: 1238258582
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_426: -228070914
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_234: -72088945
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_158: -1679970063
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_185: -1966453761
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_231: 673721463
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_252: 1382603393
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_91: -1412302744
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_314: -496182
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_227: 97727640
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_326: -157371050
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_343: 577255508
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_404: 1744527489
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_329: -904271612
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_111: 2097318104
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_228: -925223622
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_323: -1274996505
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_102: 162397351
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_240: -1832784407
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_84: 2089647234
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_8: 1325658185
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_11: -894045970
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_434: 768356518
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_160: -1435978869
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_363: 1408533992
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_371: -1419592789
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_318: 1998814267
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_50: -50844996
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_80: 1878549194
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_74: -1952241388
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_433: -251235950
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_183: -824176901
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_149: 383674922
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_437: -1509020867
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_273: -41777436
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_95: -566819084
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_244: 769477932
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_15: 145343496
+      SpriteAtlasTexture-bullet_effect (Group 0)-1024x1024-fmt4_69: 1743844389
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

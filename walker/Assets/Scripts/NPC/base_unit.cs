@@ -13,7 +13,7 @@ public class base_unit : MonoBehaviour
     protected NavMeshAgent agent;// Для навигации додика
     protected Animator animator;//для управления анимацией
     protected GameObject player, Weapon;//ссылка на главного персонажа, с которым будем взаимодействовать, ссылка на объект оружия
-    protected bool isDied = false;
+    protected bool isDied = true;
 
     protected virtual void Start()
     { 
@@ -61,6 +61,7 @@ public class base_unit : MonoBehaviour
     {
         if (isActivation)
         {
+            isDied = false;
             agent.isStopped = false;
             animator.SetTrigger("isActivated");
         }

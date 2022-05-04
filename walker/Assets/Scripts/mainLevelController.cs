@@ -18,43 +18,39 @@ public class mainLevelController : MonoBehaviour
     private void generate_level(int roomCount)
     {
         bool[, ] field = new bool[5,5];
-        field[2, 2] = true;
         Vector2Int current_vector = new Vector2Int(2,2);
         int usedPrefabs = Random.Range(0, roomPrefabs.Length);
+        Vector2 room_pos = new Vector2(0,0);
+        GameObject thisShit = Instantiate(roomPrefabs[0].rooms_type[0], transform);
+        thisShit.transform.position = new Vector3(room_pos.x, room_pos.y, 0);
         while (roomCount > 0)
         {
             int z = Random.Range(0, 4);
+            if(current_vector.x > field.GetLength(current_vector.x))
             switch (z){
                 case 0:
                     if (field[current_vector.x, current_vector.y + 1] == false)
                     {
-                        current_vector += new Vector2Int(0, 1);
                         field[current_vector.x, current_vector.y + 1] = true;
-                        roomCount--;
+
                     }
                     break;
                 case 1:
                     if (field[current_vector.x + 1, current_vector.y] == false)
                     {
-                        current_vector += new Vector2Int(1, 0);
                         field[current_vector.x + 1, current_vector.y] = true;
-                        roomCount--;
                     }
                     break;
                 case 2:
                     if (field[current_vector.x, current_vector.y - 1] == false)
                     {
-                        current_vector += new Vector2Int(0, -1);
                         field[current_vector.x, current_vector.y - 1] = true;
-                        roomCount--;
                     }
                     break;
                 case 3:
                     if (field[current_vector.x - 1, current_vector.y] == false)
                     {
-                        current_vector += new Vector2Int(-1, 0);
                         field[current_vector.x - 1, current_vector.y] = true;
-                        roomCount--;
                     }
                     break;
             }
