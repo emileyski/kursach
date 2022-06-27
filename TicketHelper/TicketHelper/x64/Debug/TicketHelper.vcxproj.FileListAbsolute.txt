@@ -1,0 +1,2 @@
+C:\Users\hnure\Documents\GitHub\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.vcxproj.AssemblyReference.cache
+C:\Users\hnure\Documents\GitHub\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.vcxproj.SuggestedBindingRedirects.cache
