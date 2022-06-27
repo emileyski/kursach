@@ -2,3 +2,6 @@ C:\Users\hnure\Documents\GitHub\kursach\TicketHelper\TicketHelper\x64\Debug\Tick
 C:\Users\hnure\Documents\GitHub\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.vcxproj.SuggestedBindingRedirects.cache
 C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.vcxproj.AssemblyReference.cache
 C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.vcxproj.SuggestedBindingRedirects.cache
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.MainForm.resources
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.vcxproj.GenerateResource.cache
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.RegForm.resources

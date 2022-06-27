@@ -1,5 +1,5 @@
-#pragma once
-
+﻿#pragma once
+#include "RegForm.h"
 namespace TicketHelper {
 
 	using namespace System;
@@ -34,6 +34,17 @@ namespace TicketHelper {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Label^ lbLogin;
+	private: System::Windows::Forms::Label^ lbPassword;
+	private: System::Windows::Forms::TextBox^ tbLogin;
+	private: System::Windows::Forms::TextBox^ tbPassword;
+	private: System::Windows::Forms::Button^ btEnter;
+
+	private: System::Windows::Forms::Button^ btRegister;
+
+	protected:
+
+	protected:
 
 	private:
 		/// <summary>
@@ -48,12 +59,103 @@ namespace TicketHelper {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"MainForm";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->lbLogin = (gcnew System::Windows::Forms::Label());
+			this->lbPassword = (gcnew System::Windows::Forms::Label());
+			this->tbLogin = (gcnew System::Windows::Forms::TextBox());
+			this->tbPassword = (gcnew System::Windows::Forms::TextBox());
+			this->btEnter = (gcnew System::Windows::Forms::Button());
+			this->btRegister = (gcnew System::Windows::Forms::Button());
+			this->SuspendLayout();
+			// 
+			// lbLogin
+			// 
+			this->lbLogin->AutoSize = true;
+			this->lbLogin->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->lbLogin->Location = System::Drawing::Point(268, 77);
+			this->lbLogin->Name = L"lbLogin";
+			this->lbLogin->Size = System::Drawing::Size(84, 32);
+			this->lbLogin->TabIndex = 0;
+			this->lbLogin->Text = L"Логін";
+			// 
+			// lbPassword
+			// 
+			this->lbPassword->AutoSize = true;
+			this->lbPassword->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->lbPassword->Location = System::Drawing::Point(253, 198);
+			this->lbPassword->Name = L"lbPassword";
+			this->lbPassword->Size = System::Drawing::Size(113, 32);
+			this->lbPassword->TabIndex = 1;
+			this->lbPassword->Text = L"Пароль";
+			// 
+			// tbLogin
+			// 
+			this->tbLogin->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->tbLogin->Location = System::Drawing::Point(204, 135);
+			this->tbLogin->Name = L"tbLogin";
+			this->tbLogin->Size = System::Drawing::Size(213, 38);
+			this->tbLogin->TabIndex = 2;
+			// 
+			// tbPassword
+			// 
+			this->tbPassword->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->tbPassword->Location = System::Drawing::Point(204, 258);
+			this->tbPassword->Name = L"tbPassword";
+			this->tbPassword->Size = System::Drawing::Size(213, 38);
+			this->tbPassword->TabIndex = 3;
+			// 
+			// btEnter
+			// 
+			this->btEnter->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->btEnter->Location = System::Drawing::Point(259, 342);
+			this->btEnter->Name = L"btEnter";
+			this->btEnter->Size = System::Drawing::Size(107, 38);
+			this->btEnter->TabIndex = 4;
+			this->btEnter->Text = L"Ввійти";
+			this->btEnter->UseVisualStyleBackColor = true;
+			// 
+			// btRegister
+			// 
+			this->btRegister->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->btRegister->Location = System::Drawing::Point(204, 424);
+			this->btRegister->Name = L"btRegister";
+			this->btRegister->Size = System::Drawing::Size(213, 38);
+			this->btRegister->TabIndex = 6;
+			this->btRegister->Text = L"Зареєструватися";
+			this->btRegister->UseVisualStyleBackColor = true;
+			this->btRegister->Click += gcnew System::EventHandler(this, &MainForm::btRegister_Click);
+			// 
+			// MainForm
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->ClientSize = System::Drawing::Size(627, 486);
+			this->Controls->Add(this->btRegister);
+			this->Controls->Add(this->btEnter);
+			this->Controls->Add(this->tbPassword);
+			this->Controls->Add(this->tbLogin);
+			this->Controls->Add(this->lbPassword);
+			this->Controls->Add(this->lbLogin);
+			this->Name = L"MainForm";
+			this->Text = L"Авторизація";
+			this->ResumeLayout(false);
+			this->PerformLayout();
+
 		}
 #pragma endregion
-	};
+	
+	private: System::Void btRegister_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Hide();
+		TicketHelper::RegForm resistration_form;
+		resistration_form.ShowDialog();
+		this->Show();
+	}
+};
 }
