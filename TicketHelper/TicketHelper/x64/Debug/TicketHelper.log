@@ -1,6 +1,34 @@
 ﻿  MainForm.cpp
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(8,1): error C3625: 'Admin': a native type cannot derive from a managed type 'System::String'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(9,14): error C3265: cannot declare a managed 'name' in an unmanaged 'Admin'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(9,14): message : may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(10,15): error C3265: cannot declare a managed 'login' in an unmanaged 'Admin'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(10,15): message : may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(11,13): error C2039: 'string': is not a member of 'std'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\predefined C++ types (compiler internal)(339): message : see declaration of 'std'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(11,7): error C2061: syntax error: identifier 'string'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(13,10): error C2065: '_name': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(14,11): error C2065: '_login': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(15,3): error C2065: 'password': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(15,14): error C2065: '_password': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(259,1): error C2661: 'Admin::Admin': no overloaded function takes 3 arguments
 C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\MainForm.cpp(6,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
   RegForm.cpp
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(8,1): error C3625: 'Admin': a native type cannot derive from a managed type 'System::String'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(9,14): error C3265: cannot declare a managed 'name' in an unmanaged 'Admin'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(9,14): message : may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(10,15): error C3265: cannot declare a managed 'login' in an unmanaged 'Admin'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(10,15): message : may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(11,13): error C2039: 'string': is not a member of 'std'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\predefined C++ types (compiler internal)(339): message : see declaration of 'std'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(11,7): error C2061: syntax error: identifier 'string'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(13,10): error C2065: '_name': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(14,11): error C2065: '_login': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(15,3): error C2065: 'password': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\Admin.h(15,14): error C2065: '_password': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(259,1): error C2661: 'Admin::Admin': no overloaded function takes 3 arguments
   Generating Code...
-  MainForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  TicketHelper.vcxproj -> C:\My files\#Programming\C++\kursach\TicketHelper\x64\Debug\TicketHelper.exe

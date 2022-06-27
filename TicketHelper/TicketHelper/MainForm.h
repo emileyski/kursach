@@ -69,6 +69,8 @@ namespace TicketHelper {
 			// 
 			// lbLogin
 			// 
+			this->lbLogin->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->lbLogin->AutoSize = true;
 			this->lbLogin->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -80,6 +82,8 @@ namespace TicketHelper {
 			// 
 			// lbPassword
 			// 
+			this->lbPassword->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->lbPassword->AutoSize = true;
 			this->lbPassword->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -91,6 +95,8 @@ namespace TicketHelper {
 			// 
 			// tbLogin
 			// 
+			this->tbLogin->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->tbLogin->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tbLogin->Location = System::Drawing::Point(204, 135);
@@ -100,6 +106,8 @@ namespace TicketHelper {
 			// 
 			// tbPassword
 			// 
+			this->tbPassword->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->tbPassword->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->tbPassword->Location = System::Drawing::Point(204, 258);
@@ -109,6 +117,8 @@ namespace TicketHelper {
 			// 
 			// btEnter
 			// 
+			this->btEnter->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->btEnter->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btEnter->Location = System::Drawing::Point(259, 342);
@@ -120,6 +130,8 @@ namespace TicketHelper {
 			// 
 			// btRegister
 			// 
+			this->btRegister->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->btRegister->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btRegister->Location = System::Drawing::Point(204, 424);
@@ -143,7 +155,11 @@ namespace TicketHelper {
 			this->Controls->Add(this->tbLogin);
 			this->Controls->Add(this->lbPassword);
 			this->Controls->Add(this->lbLogin);
+			this->MaximizeBox = false;
+			this->MaximumSize = System::Drawing::Size(645, 533);
+			this->MinimumSize = System::Drawing::Size(645, 533);
 			this->Name = L"MainForm";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Авторизація";
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -155,7 +171,8 @@ namespace TicketHelper {
 		this->Hide();
 		TicketHelper::RegForm resistration_form;
 		resistration_form.ShowDialog();
-		this->Show();
+		
+
 	}
 };
 }

@@ -8,5 +8,4 @@ void main(array<String^>^ args)
 	Application::SetCompatibleTextRenderingDefault(false);
 	TicketHelper::MainForm form;
 	Application::Run(% form);
-	//cum
 }
