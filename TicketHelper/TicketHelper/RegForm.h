@@ -1,6 +1,9 @@
 ﻿#pragma once
 #include "Admin.h";
-#include "fstream";
+#include <fstream>;
+#include <msclr\marshal_cppstd.h>
+#include "json.hpp";
+
 namespace TicketHelper {
 
 	using namespace System;
@@ -9,6 +12,7 @@ namespace TicketHelper {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using json = nlohmann::json;
 
 	/// <summary>
 	/// Summary for RegForm
@@ -253,11 +257,15 @@ namespace TicketHelper {
 private: System::Void btRegister_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (cbUserType->SelectedIndex == 0)
 	{
-		String^ name = this->tbName->Text;
-		String^ login = this->tbLogin->Text;
-		String^ password = this->tbPassword->Text;
+		msclr::interop::marshal_context context;
+		
+		std::string name = context.marshal_as<std::string>(this->tbName->Text);
+		std::string login = context.marshal_as<std::string>(this->tbLogin->Text);
+		std::string password = context.marshal_as<std::string>(this->tbPassword->Text);
 		Admin admin(name, login, password);
+				
 	}
 }
 };
+
 }
