@@ -137,6 +137,8 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="RegController.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainForm.resx">

@@ -1,15 +1,10 @@
 #pragma once
 #include <string>
-#include "json.hpp"
-#include <fstream>
-
-using json = nlohmann::json;
+using namespace std;
 public class Admin
 {
 public:
-	std::string name;
-	std::string login;
-	std::string password;
+	string name, login, password;
 	Admin(std::string _name, std::string _login, std::string _password)
 	{
 		name = _name;

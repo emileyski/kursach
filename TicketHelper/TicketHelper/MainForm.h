@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "RegForm.h"
+#include "stdafx.h"
 namespace TicketHelper {
 
 	using namespace System;
@@ -166,7 +166,6 @@ namespace TicketHelper {
 	
 	
 private: System::Void btRegister_Click(System::Object^ sender, System::EventArgs^ e) {
-	this->Hide();
 	TicketHelper::RegForm regForm;
 	regForm.ShowDialog();
 	this->Show();

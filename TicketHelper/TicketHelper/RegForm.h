@@ -1,7 +1,6 @@
 ﻿#pragma once
 #include "Admin.h"
 #include <msclr\marshal_cppstd.h>
-
 #include "RegController.h"
 
 namespace TicketHelper {
@@ -238,31 +237,33 @@ namespace TicketHelper {
 	
 
 private: System::Void btRegister_Click(System::Object^ sender, System::EventArgs^ e) {
+	msclr::interop::marshal_context context;
+
+	std::string name = context.marshal_as<std::string>(this->tbName->Text);
+	std::string login = context.marshal_as<std::string>(this->tbLogin->Text);
+	std::string password = context.marshal_as<std::string>(this->tbPassword->Text);
+
 	if (cbUserType->SelectedIndex == 0)
 	{
-		msclr::interop::marshal_context context;
-		
-		std::string name = context.marshal_as<std::string>(this->tbName->Text);
-		std::string login = context.marshal_as<std::string>(this->tbLogin->Text);
-		std::string password = context.marshal_as<std::string>(this->tbPassword->Text);
 		Admin admin(name, login, password);
 		RegController regController;
-		regController.json_write_admin(admin);
+		regController.json_write(admin);
 	}
 	else if (cbUserType->SelectedIndex == 1)
 	{
-		msclr::interop::marshal_context context;
-
-		std::string name = context.marshal_as<std::string>(this->tbName->Text);
-		std::string login = context.marshal_as<std::string>(this->tbLogin->Text);
-		std::string password = context.marshal_as<std::string>(this->tbPassword->Text);
+		
+		Visitor visitor(name, login, password);
+		RegController regController;
+		regController.json_write(visitor);
+	}
+	else
+	{
+		this->cbUserType->BackColor = System::Drawing::Color::Red;
 	}
 }
 
 private: System::Void btAuthorize_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();
-	MainForm mainForm;
-
 }
 };
 

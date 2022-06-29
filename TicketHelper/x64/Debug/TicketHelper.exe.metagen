@@ -23,6 +23,11 @@ Struct Admin: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Be
   Methods:
     <MarshalCopy>(Admin*, Admin*): PrivateScope, Public, Static, SpecialName
     <MarshalDestroy>(Admin*): PrivateScope, Public, Static, SpecialName
+Struct Visitor: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Methods:
+    <MarshalCopy>(Visitor*, Visitor*): PrivateScope, Public, Static, SpecialName
+    <MarshalDestroy>(Visitor*): PrivateScope, Public, Static, SpecialName
 Struct RegController: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
   :System.ValueType
 Class TicketHelper.RegForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
