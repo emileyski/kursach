@@ -1,11 +1,9 @@
 ﻿  MainForm.cpp
-C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(264,2): error C2065: 'MainForm': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(264,11): error C2146: syntax error: missing ';' before identifier 'mainForm'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(264,11): error C2065: 'mainForm': undeclared identifier
   RegForm.cpp
-C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(264,2): error C2065: 'MainForm': undeclared identifier
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(264,11): error C2146: syntax error: missing ';' before identifier 'mainForm'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\RegForm.h(264,11): error C2065: 'mainForm': undeclared identifier
   Generating Code...
-  MainForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  TicketHelper.vcxproj -> C:\My files\#Programming\C++\kursach\TicketHelper\x64\Debug\TicketHelper.exe

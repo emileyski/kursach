@@ -1,8 +1,8 @@
 ﻿#pragma once
-#include "Admin.h";
-#include <fstream>;
+#include "Admin.h"
 #include <msclr\marshal_cppstd.h>
-#include "json.hpp";
+
+#include "RegController.h"
 
 namespace TicketHelper {
 
@@ -12,7 +12,6 @@ namespace TicketHelper {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
-	using json = nlohmann::json;
 
 	/// <summary>
 	/// Summary for RegForm
@@ -55,13 +54,8 @@ namespace TicketHelper {
 	private: System::Windows::Forms::Button^ btRegister;
 	private: System::Windows::Forms::Button^ btAuthorize;
 	private: System::Windows::Forms::Label^ label5;
-	private: System::Windows::Forms::Label^ label6;
 
 
-
-
-
-	protected:
 
 	private:
 		/// <summary>
@@ -88,7 +82,6 @@ namespace TicketHelper {
 			this->btRegister = (gcnew System::Windows::Forms::Button());
 			this->btAuthorize = (gcnew System::Windows::Forms::Button());
 			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// cbUserType
@@ -198,6 +191,7 @@ namespace TicketHelper {
 			this->btAuthorize->TabIndex = 11;
 			this->btAuthorize->Text = L"Авторизуватися";
 			this->btAuthorize->UseVisualStyleBackColor = true;
+			this->btAuthorize->Click += gcnew System::EventHandler(this, &RegForm::btAuthorize_Click);
 			// 
 			// label5
 			// 
@@ -210,17 +204,6 @@ namespace TicketHelper {
 			this->label5->TabIndex = 12;
 			this->label5->Text = L"Якщо у вас вже є аккаунт";
 			// 
-			// label6
-			// 
-			this->label6->AutoSize = true;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label6->Location = System::Drawing::Point(273, 372);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(55, 20);
-			this->label6->TabIndex = 13;
-			this->label6->Text = L"Якщо";
-			// 
 			// RegForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -228,7 +211,6 @@ namespace TicketHelper {
 			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->ClientSize = System::Drawing::Size(566, 499);
-			this->Controls->Add(this->label6);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->btAuthorize);
 			this->Controls->Add(this->btRegister);
@@ -245,6 +227,7 @@ namespace TicketHelper {
 			this->MaximumSize = System::Drawing::Size(584, 546);
 			this->MinimumSize = System::Drawing::Size(584, 546);
 			this->Name = L"RegForm";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"RegForm";
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -263,8 +246,23 @@ private: System::Void btRegister_Click(System::Object^ sender, System::EventArgs
 		std::string login = context.marshal_as<std::string>(this->tbLogin->Text);
 		std::string password = context.marshal_as<std::string>(this->tbPassword->Text);
 		Admin admin(name, login, password);
-				
+		RegController regController;
+		regController.json_write_admin(admin);
 	}
+	else if (cbUserType->SelectedIndex == 1)
+	{
+		msclr::interop::marshal_context context;
+
+		std::string name = context.marshal_as<std::string>(this->tbName->Text);
+		std::string login = context.marshal_as<std::string>(this->tbLogin->Text);
+		std::string password = context.marshal_as<std::string>(this->tbPassword->Text);
+	}
+}
+
+private: System::Void btAuthorize_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Close();
+	MainForm mainForm;
+
 }
 };
 

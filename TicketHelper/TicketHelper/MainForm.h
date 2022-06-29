@@ -42,9 +42,6 @@ namespace TicketHelper {
 
 	private: System::Windows::Forms::Button^ btRegister;
 
-	protected:
-
-	protected:
 
 	private:
 		/// <summary>
@@ -167,12 +164,12 @@ namespace TicketHelper {
 		}
 #pragma endregion
 	
-	private: System::Void btRegister_Click(System::Object^ sender, System::EventArgs^ e) {
-		this->Hide();
-		TicketHelper::RegForm resistration_form;
-		resistration_form.ShowDialog();
-		
-
-	}
+	
+private: System::Void btRegister_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Hide();
+	TicketHelper::RegForm regForm;
+	regForm.ShowDialog();
+	this->Show();
+}
 };
 }
