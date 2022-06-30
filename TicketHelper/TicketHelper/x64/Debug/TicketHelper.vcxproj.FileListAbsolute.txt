@@ -5,3 +5,4 @@ C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketH
 C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.MainForm.resources
 C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.vcxproj.GenerateResource.cache
 C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.RegForm.resources
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\x64\Debug\TicketHelper.AdminAccountForm.resources

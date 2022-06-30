@@ -1,5 +1,7 @@
 ﻿#pragma once
 #include "stdafx.h"
+#include <msclr\marshal_cppstd.h>
+#include "AuthController.h"
 namespace TicketHelper {
 
 	using namespace System;
@@ -18,6 +20,7 @@ namespace TicketHelper {
 		MainForm(void)
 		{
 			InitializeComponent();
+			tbPassword->PasswordChar = '*';
 			//
 			//TODO: Add the constructor code here
 			//
@@ -41,6 +44,9 @@ namespace TicketHelper {
 	private: System::Windows::Forms::Button^ btEnter;
 
 	private: System::Windows::Forms::Button^ btRegister;
+	private: System::Windows::Forms::Label^ lbWrongInfo;
+
+
 
 
 	private:
@@ -62,6 +68,7 @@ namespace TicketHelper {
 			this->tbPassword = (gcnew System::Windows::Forms::TextBox());
 			this->btEnter = (gcnew System::Windows::Forms::Button());
 			this->btRegister = (gcnew System::Windows::Forms::Button());
+			this->lbWrongInfo = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// lbLogin
@@ -124,6 +131,7 @@ namespace TicketHelper {
 			this->btEnter->TabIndex = 4;
 			this->btEnter->Text = L"Ввійти";
 			this->btEnter->UseVisualStyleBackColor = true;
+			this->btEnter->Click += gcnew System::EventHandler(this, &MainForm::btEnter_Click);
 			// 
 			// btRegister
 			// 
@@ -139,6 +147,21 @@ namespace TicketHelper {
 			this->btRegister->UseVisualStyleBackColor = true;
 			this->btRegister->Click += gcnew System::EventHandler(this, &MainForm::btRegister_Click);
 			// 
+			// lbWrongInfo
+			// 
+			this->lbWrongInfo->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->lbWrongInfo->AutoSize = true;
+			this->lbWrongInfo->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->lbWrongInfo->ForeColor = System::Drawing::Color::Red;
+			this->lbWrongInfo->Location = System::Drawing::Point(170, 30);
+			this->lbWrongInfo->Name = L"lbWrongInfo";
+			this->lbWrongInfo->Size = System::Drawing::Size(282, 22);
+			this->lbWrongInfo->TabIndex = 7;
+			this->lbWrongInfo->Text = L"Неправильний логін або пароль!";
+			this->lbWrongInfo->Visible = false;
+			// 
 			// MainForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -146,6 +169,7 @@ namespace TicketHelper {
 			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
 				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->ClientSize = System::Drawing::Size(627, 486);
+			this->Controls->Add(this->lbWrongInfo);
 			this->Controls->Add(this->btRegister);
 			this->Controls->Add(this->btEnter);
 			this->Controls->Add(this->tbPassword);
@@ -169,6 +193,26 @@ private: System::Void btRegister_Click(System::Object^ sender, System::EventArgs
 	TicketHelper::RegForm regForm;
 	regForm.ShowDialog();
 	this->Show();
+}
+private: System::Void btEnter_Click(System::Object^ sender, System::EventArgs^ e) {
+	msclr::interop::marshal_context context;
+
+	std::string login = context.marshal_as<std::string>(this->tbLogin->Text);
+	std::string password = context.marshal_as<std::string>(this->tbPassword->Text);
+	
+	AuthController authController;
+	
+	if (authController.Authorization(login, password))
+	{
+		this->Hide();
+		TicketHelper::AdminAccountForm adminForm;
+		adminForm.ShowDialog();
+		this->Show();
+	}
+	else
+	{
+		this->lbWrongInfo->Visible = true;
+	}
 }
 };
 }

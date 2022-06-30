@@ -1,3 +1,4 @@
+  TicketHelper.AdminAccountForm.resources - Embedded, ContainedInManifestFile, 
   TicketHelper.MainForm.resources - Embedded, ContainedInManifestFile, 
   TicketHelper.RegForm.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
@@ -33,6 +34,8 @@ Struct RegController: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Se
 Class TicketHelper.RegForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct AuthController: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
 Class TicketHelper.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
