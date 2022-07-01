@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include <msclr\marshal_cppstd.h>
 #include "AuthController.h"
+#include "AdminAccountForm.h"
 namespace TicketHelper {
 
 	using namespace System;
@@ -205,7 +206,8 @@ private: System::Void btEnter_Click(System::Object^ sender, System::EventArgs^ e
 	if (authController.Authorization(login, password))
 	{
 		this->Hide();
-		TicketHelper::AdminAccountForm adminForm;
+		TicketHelper::AdminAccountForm adminForm(authController.admin);
+		adminForm.Welcome();
 		adminForm.ShowDialog();
 		this->Show();
 	}

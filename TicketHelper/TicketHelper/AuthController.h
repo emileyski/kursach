@@ -9,6 +9,7 @@ using json = nlohmann::json;
 public class AuthController
 {
 public:
+	Admin admin;
 	bool Authorization(std::string login, std::string password)
 	{
 		json jAccounts;
@@ -21,6 +22,9 @@ public:
 		for (json::iterator i = jAccounts.begin(); i != jAccounts.end(); ++i, iter++) {
 			if (jAccounts[iter]["Login"] == login && jAccounts[iter]["Password"] == password)
 			{
+				admin.login = jAccounts[iter]["Login"];
+				admin.name = jAccounts[iter]["Name"];
+				admin.password = jAccounts[iter]["Password"];
 				reader.close();
 				return true;
 			}
