@@ -202,14 +202,13 @@ private: System::Void btEnter_Click(System::Object^ sender, System::EventArgs^ e
 	std::string password = context.marshal_as<std::string>(this->tbPassword->Text);
 	
 	AuthController authController;
-	
 	if (authController.Authorization(login, password))
 	{
 		this->Hide();
 		TicketHelper::AdminAccountForm adminForm(authController.admin);
 		adminForm.Welcome();
 		adminForm.ShowDialog();
-		this->Show();
+		this->Close();
 	}
 	else
 	{

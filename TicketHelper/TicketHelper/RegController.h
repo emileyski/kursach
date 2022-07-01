@@ -12,7 +12,7 @@ public class RegController
 public:
 	std::string json_write(Admin admin)
 	{
-		std::string fileName = "adminAccounts.json";
+		const std::string fileName = "adminAccounts.json";
 		std::ifstream reader;
 		std::ofstream writer;
 		
@@ -53,7 +53,7 @@ public:
 	}
 	std::string json_write(Visitor visitor)
 	{
-		std::string fileName = "visitorAccounts.json";
+		const std::string fileName = "visitorAccounts.json";
 		std::ifstream reader;
 		std::ofstream writer;
 
@@ -69,7 +69,6 @@ public:
 
 		if (reader)
 		{
-			reader.open(fileName);
 			reader >> jAccounts;
 			reader.close();
 			jAccounts.push_back(jAccount);

@@ -53,6 +53,7 @@ namespace TicketHelper {
 	private: System::Windows::Forms::Button^ btRegister;
 	private: System::Windows::Forms::Button^ btAuthorize;
 	private: System::Windows::Forms::Label^ label5;
+	private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
 
 
 
@@ -81,6 +82,7 @@ namespace TicketHelper {
 			this->btRegister = (gcnew System::Windows::Forms::Button());
 			this->btAuthorize = (gcnew System::Windows::Forms::Button());
 			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->backgroundWorker1 = (gcnew System::ComponentModel::BackgroundWorker());
 			this->SuspendLayout();
 			// 
 			// cbUserType

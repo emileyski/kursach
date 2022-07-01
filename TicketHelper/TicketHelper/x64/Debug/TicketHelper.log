@@ -1,4 +1,9 @@
 ﻿  AdminAccountForm.cpp
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\single_include\nlohmann\json.hpp(3805,101): warning C4003: not enough arguments for function-like macro invocation 'max'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\single_include\nlohmann\json.hpp(3815,101): warning C4003: not enough arguments for function-like macro invocation 'max'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\single_include\nlohmann\json.hpp(3825,113): warning C4003: not enough arguments for function-like macro invocation 'max'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\single_include\nlohmann\json.hpp(3836,101): warning C4003: not enough arguments for function-like macro invocation 'min'
+C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\single_include\nlohmann\json.hpp(3837,104): warning C4003: not enough arguments for function-like macro invocation 'max'
   MainForm.cpp
 C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\single_include\nlohmann\json.hpp(3805,101): warning C4003: not enough arguments for function-like macro invocation 'max'
 C:\My files\#Programming\C++\kursach\TicketHelper\TicketHelper\single_include\nlohmann\json.hpp(3815,101): warning C4003: not enough arguments for function-like macro invocation 'max'

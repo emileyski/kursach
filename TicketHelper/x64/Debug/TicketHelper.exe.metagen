@@ -21,6 +21,10 @@ Struct Admin: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Be
   Methods:
     <MarshalCopy>(Admin*, Admin*): PrivateScope, Public, Static, SpecialName
     <MarshalDestroy>(Admin*): PrivateScope, Public, Static, SpecialName
+Struct Theatre: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Event: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
 Class TicketHelper.AdminAccountForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(Admin*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -28,6 +32,13 @@ Class TicketHelper.AdminAccountForm: AutoLayout, AnsiClass, Class, Public, Befor
     System.String name : Public
     System.String login : Public
     System.String password : Public
+    System.String Title : Public
+    Int32 day : Public
+    Int32 month : Public
+    Int32 year : Public
+    Int32 hours : Public
+    Int32 minutes : Public
+    Int32 theatreIndex : Public
   Methods:
     Welcome(): PrivateScope, Public, HideBySig
 Struct Visitor: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
